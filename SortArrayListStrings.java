@@ -2,15 +2,20 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class SortingArrayList {
+public class SortArrayListStrings {
 
 	public static void main(String[] args) {
 		Random generator = new Random();
-		ArrayList foo = new ArrayList();
+		ArrayList<String> foo = new ArrayList<String>();
 
-		for (int i = 0; i < 20; i++) {
-			foo.add(10 + generator.nextInt(90));
-		}
+ 			foo.add("fie");
+ 			foo.add("fee");
+ 			foo.add("fum");
+ 			foo.add("foe");
+ 			foo.add("smell");
+ 			foo.add("i");
+ 			foo.add("things");
+		 
 		System.out.println("ArrayList before: " + foo);
 
 		sort(foo);	
@@ -20,7 +25,6 @@ public class SortingArrayList {
 
 	public static ArrayList sort(ArrayList foo) {
 		Collections.sort(foo);
-		Collections.reverse(foo);
 		return foo;
 	}
 
