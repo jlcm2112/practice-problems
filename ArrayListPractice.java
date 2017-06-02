@@ -78,6 +78,7 @@ public class ArrayListPractice {
 		System.out.println("Does foo contain 23? " + foo.contains(23));
 		System.out.println("Does foo contain 77? " + foo.contains(77));
 		System.out.println("Does foo contain 15? " + foo.contains(15));
+
 	}
 
 	public static void writeline(ArrayList<String> foo) {
